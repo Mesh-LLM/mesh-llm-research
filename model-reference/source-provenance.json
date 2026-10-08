@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "source_repository": "Mesh-LLM/mesh-llm",
+  "source_commit": "b66a426539eab5ed249ff832d7e984e80efd8c6d",
+  "source_path": "skippy/scripts/materialize-competitive-inputs.sh",
+  "source_sha256": "2027ba481853d8d0f2cd8711eaae801ce68c0b379273d028895ee6d9d00e54cc",
+  "source_lines": [
+    162,
+    230
+  ],
+  "destination": "model-reference/legacy-tokenizer-export.py",
+  "source_block_sha256": "5240e2a19bdde0fbc302e4f186df082bb130d2488178d0727512b68c32c43b73",
+  "destination_sha256": "5240e2a19bdde0fbc302e4f186df082bb130d2488178d0727512b68c32c43b73",
+  "corrections": [
+
+  ],
+  "qualification": "historical actual SDK reference only; former environment unlocked; no model execution or equivalence claim"
+}

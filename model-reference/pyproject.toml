@@ -1,0 +1,8 @@
+[project]
+name = "meshllm-historical-tokenizer-reference"
+version = "0.0.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["transformers>=5,<6", "huggingface-hub"]
+
+[tool.uv]
+package = false

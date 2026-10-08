@@ -1,0 +1,116 @@
+{
+  "source_commit": "b66a426539eab5ed249ff832d7e984e80efd8c6d",
+  "source_repository": "/Users/ndizazzo/dev/worktrees/2026-10-07/mesh-python-extraction",
+  "final_external_commit_pending": true,
+  "qualification": false,
+  "files": [
+    {
+      "destination": "benchmark-adapters/mcp-import-probe.py",
+      "sha256": "d5d5fba746854a16485aefc6ee67a0845fa08b7c0f1fa190a35e6b8ce0b3ae18",
+      "bytes": 460,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/mcp_environment.rs",
+      "origin_full_source_sha256": "e6e08856aa4435539521ae4a5bb33ad361971b2e41025554e6ae42d32e53e824",
+      "role": "external actual SDK interface or unchanged preparation input"
+    },
+    {
+      "destination": "benchmark-adapters/speed-bench-auth.py",
+      "sha256": "932f2f263ac58f5e408f626cb9521284ef8155b458ac1c6b8afffaa80b7961a3",
+      "bytes": 3452,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/adapters/speed_bench.rs",
+      "origin_full_source_sha256": "f501f74f339bf9ac3f9981874c122983244aed0ef8108a9fe4aaa0dbee90b23a",
+      "role": "external actual SDK interface or unchanged preparation input"
+    },
+    {
+      "destination": "benchmark-adapters/swe-evaluate.py",
+      "sha256": "04a7f6cb96972ae456d199121660224dc92cc8e9119cefc8ee6565c2c53dc5a5",
+      "bytes": 268,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/adapters/templates/swe_bench_pro_run.sh",
+      "origin_full_source_sha256": "7a25191e16366c76a13762ccf32f2d54609b61aaa28b672f39daecd8619d241f",
+      "role": "external actual SDK interface or unchanged preparation input"
+    },
+    {
+      "destination": "benchmark-adapters/swe-expert-instances.py",
+      "sha256": "70323222f5703430e09d7d879b4f1fcb003f0dd33fd27dc8bcd067d85976e9d3",
+      "bytes": 1400,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/adapters/templates/swe_bench_pro_run.sh",
+      "origin_full_source_sha256": "7a25191e16366c76a13762ccf32f2d54609b61aaa28b672f39daecd8619d241f",
+      "role": "external actual SDK interface or unchanged preparation input"
+    },
+    {
+      "destination": "benchmark-adapters/swe-generate-instances.py",
+      "sha256": "134464e52e287ed9d402c1cfec79afe239d56a51c852d42b870a209c6ae5ae48",
+      "bytes": 205,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/adapters/templates/swe_bench_pro_run.sh",
+      "origin_full_source_sha256": "7a25191e16366c76a13762ccf32f2d54609b61aaa28b672f39daecd8619d241f",
+      "role": "external actual SDK interface or unchanged preparation input"
+    },
+    {
+      "destination": "benchmark-adapters/swe-import-probe.py",
+      "sha256": "c66c5603c5dc7758877361bb9a0b09fd07b2723800ed1aa37acf41e57978a60f",
+      "bytes": 649,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/swe_environment/preparation.rs",
+      "origin_full_source_sha256": "0cf29ac74c954c73264a0a438cee15abcd08a84b2b72000539f85e1fee72eee2",
+      "role": "external actual SDK interface or unchanged preparation input"
+    },
+    {
+      "destination": "benchmark-adapters/swe-project/pyproject.toml",
+      "sha256": "6d6600df827e367958a35ee56c8813d8c247b37e9dc2db655e4ce7ad2e855b61",
+      "bytes": 536,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/swe_environment/pyproject.toml",
+      "origin_full_source_sha256": "6d6600df827e367958a35ee56c8813d8c247b37e9dc2db655e4ce7ad2e855b61",
+      "role": "external actual SDK interface or unchanged preparation input"
+    },
+    {
+      "destination": "benchmark-adapters/swe-project/uv.lock",
+      "sha256": "85aceb40793727186c4af3a36a614026af56e906f3e36948869b5aa39a92a7a8",
+      "bytes": 850882,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/swe_environment/uv.lock",
+      "origin_full_source_sha256": "85aceb40793727186c4af3a36a614026af56e906f3e36948869b5aa39a92a7a8",
+      "role": "external actual SDK interface or unchanged preparation input"
+    },
+    {
+      "destination": "benchmark-adapters/swerex-modal/deployment/config.py",
+      "sha256": "a19643cd219c3fa15de001cb520cf087165c64b47c264688dfa4c26385b02e45",
+      "bytes": 8012,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/swerex_modal/transform.rs",
+      "origin_full_source_sha256": "052d7396b60950dbe1fe22f6957fe822de2d6be672abc3b1447534b7f2d973ab",
+      "role": "exact reviewed modern upstream postimage, with original and replacement checks retained in Mesh"
+    },
+    {
+      "destination": "benchmark-adapters/swerex-modal/deployment/modal.py",
+      "sha256": "a827f2b4c90cc56aeffb152b40a24a941af75360735613ee7a8abb457daddc41",
+      "bytes": 12621,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/swerex_modal/transform.rs",
+      "origin_full_source_sha256": "052d7396b60950dbe1fe22f6957fe822de2d6be672abc3b1447534b7f2d973ab",
+      "role": "exact reviewed modern upstream postimage, with original and replacement checks retained in Mesh"
+    },
+    {
+      "destination": "benchmark-adapters/swerex-modal/runtime/remote.py",
+      "sha256": "7c0dd7a42dfcc99b2dc51f961cb0fe2aee81c09caae08a256694b4e37b4da532",
+      "bytes": 12704,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/src/evals/swerex_modal/transform.rs",
+      "origin_full_source_sha256": "052d7396b60950dbe1fe22f6957fe822de2d6be672abc3b1447534b7f2d973ab",
+      "role": "exact reviewed modern upstream postimage, with original and replacement checks retained in Mesh"
+    },
+    {
+      "destination": "benchmark-adapters/swerex-sdk-client.py",
+      "sha256": "81bea2daff30ff7d9abcb59d560ad02569552f1e1b63202f0d3857aea1513825",
+      "bytes": 723,
+      "mode": "0644",
+      "origin": "skippy/crates/skippy-bench/tests/swerex_modal_cli/actual_sdk.rs",
+      "origin_full_source_sha256": "8efc33571d253f1a31ea1713d9f142bf386883505046cddf56e127a89e8ce51d",
+      "role": "external actual SDK interface or unchanged preparation input"
+    }
+  ]
+}

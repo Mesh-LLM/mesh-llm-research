@@ -1,3 +1,9 @@
+The Python proxy and measurement subjects use only the standard library.
+Their environment is declared by the external repository root pyproject.toml
+and uv.lock; no separate latency package resolver or runtime installer is needed.
+Use an existing interpreter from that declared range. Native server trees and
+paid/model execution remain separate historical operator inputs.
+
 # Extracted historical RPC experiment
 
 This is preserved research, not current Mesh serving or build instructions.

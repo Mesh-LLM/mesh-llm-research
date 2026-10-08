@@ -1,0 +1,39 @@
+{
+  "upstream": "8212c7802455255460ab8e18fc34754560031b34",
+  "original_patched_head": "ff6779035febf91eed41cdd16757873e6a81d446",
+  "modified_native_head": "ab881a65e5187340fbba4b41f5b1e0b7f70f8be9",
+  "validation": {
+    "original_clean_queue": 0,
+    "final_clean_queue": 0,
+    "non_python_identity_differences": 0,
+    "copied_source_files_verified": 280,
+    "resolved_lock_packages": 40,
+    "locked_environment_prepare": 0,
+    "upstream_gguf_offline_tests": {
+      "passed": 7,
+      "failed": 0
+    },
+    "converter_help": 0,
+    "converter_registry": {
+      "status": 0,
+      "preserved": [
+        "InklingForConditionalGeneration",
+        "LayaModel",
+        "DiffusionGemma4ModelForBlockDiffusion",
+        "DiffusionGemmaForBlockDiffusion"
+      ]
+    },
+    "patch_diffcheck": 0,
+    "mesh_docs_diffcheck": 0
+  },
+  "scope": [
+    "No native build/Cargo/model downloads/conversion/platform qualification or Mesh commit/publication.",
+    "Exact non-Python source identity is preserved; queue digest/patched commit identity changes normally, so future source receipts must identify the new queue.",
+    "External research commit and publication remain root-owned pending approvals; no fabricated published revision.",
+    "Native Rust Inkling overlap is documented; full family equivalence not asserted.",
+    "Upstream quant/tokenizer integration tests retained but require separately built native library and model inputs; seven offline tests do not prove those interfaces."
+  ],
+  "pyproject_sha256": "6ae54c53fdf46abb0cf144d8a84b0e20d1d9e27f4477ffe2b9916a88da247fed",
+  "uv_lock_sha256": "6e9e98be0426240c3fccc44c50d714ee223c3afeabd0fb9fea44db2ee8851014",
+  "source_manifest_sha256": "179b2bd2910cfe01707d16141b0626e0b7e345e3cf307a44f3b2264223e68d5e"
+}

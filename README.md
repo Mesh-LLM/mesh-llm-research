@@ -26,11 +26,11 @@ It is not a Mesh build, required CI, native reader, or SDK client project.
   `b5d109ea99a89b4d8a670ee4fc2e8cb76411ee5c`, plus copies of the two frozen
   reference binaries. Mesh retains the checked binary data consumed by Rust.
 - `quantizer-reference/`: supplied upstream converter/quantizer comparison,
-  with its declared numpy/GGUF dependencies. No dependency lock, environment
-  installation, conversion, or real-model quantization was fabricated.
+  with declared numpy/GGUF dependencies and a genuine49-package resolver lock.
+  No reference environment was installed or real-model comparison performed.
 
-The root project declares existing CPython3.11 through3.14 and no packages for
-stdlib research. Use the separately declared Granite/quantizer projects for
+The root project and its resolver lock declare existing CPython3.11 through3.14
+and no packages for stdlib MoA, scenarios, hook, latency and LMCache research. Use the separately declared Granite/quantizer projects for
 third-party imports. Source extraction does not prove installed SDK or model
 compatibility.
 

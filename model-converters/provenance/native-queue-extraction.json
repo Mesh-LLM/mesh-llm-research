@@ -1,0 +1,47 @@
+{
+  "old_commit": "ff6779035febf91eed41cdd16757873e6a81d446",
+  "new_commit": "ab881a65e5187340fbba4b41f5b1e0b7f70f8be9",
+  "upstream": "8212c7802455255460ab8e18fc34754560031b34",
+  "queue_commits": 145,
+  "non_python_files_compared": 3540,
+  "non_python_differences": [
+
+  ],
+  "non_python_tree_sha256": "dd959ceda2a6bfe93d2b0c00c046fe811087b147777bc025bc6bc25c42b34237",
+  "python_differences": [
+    "conversion/__init__.py",
+    "conversion/base.py",
+    "conversion/diffusion_gemma.py",
+    "conversion/inkling.py",
+    "conversion/laya.py",
+    "gguf-py/gguf/constants.py",
+    "gguf-py/gguf/gguf_writer.py",
+    "gguf-py/gguf/tensor_mapping.py"
+  ],
+  "patches": [
+    {
+      "path": "skippy/llama_cpp/patches/0004-models-expose-stage-independent-graph-semantics.patch",
+      "old_sha256": "882d7a77b7842028dc9dae4eb76018e83d7f1fc7f8e41200a8e1daa26669177d",
+      "new_sha256": "23c2a88161cf937e4039273e2754a06586622a68b6596dcd43d8f161a2c368d3"
+    },
+    {
+      "path": "skippy/llama_cpp/patches/model_support/0001-models-add-inkling-family-support.patch",
+      "old_sha256": "a0b87b2a74189b1bb671626071ca8b50ca70f4e644d0342d27dff253d1cab486",
+      "new_sha256": "0044c7a79c27d583640e2d26d293f927b96bddb7cad6a912290363a9bf62a45b"
+    },
+    {
+      "path": "skippy/llama_cpp/patches/model_support/0003-llama-port-diffusion-gemma-support.patch",
+      "old_sha256": "28c578c4f990179c0e664c7a5a3efbe6776153070e5bc36bc4e5b64f190f8cba",
+      "new_sha256": "0d19abe0d8ecf5087500699913b9d7b9ecdf2634c0d030f3c01d888d6256a088"
+    },
+    {
+      "path": "skippy/llama_cpp/patches/model_support/0006-models-add-laya-decision-model-support.patch",
+      "old_sha256": "d9e3de4a68faf415cf4c3ce9159b81e266cb99226cf6d9a0e8f689c86e4e2a19",
+      "new_sha256": "d3d6b6ad8d9d93e58b6878c557dc80c588e80455ccd453e143ba9109afb04021"
+    }
+  ],
+  "final_maintained_queue_replay": {
+    "status": 0,
+    "log_sha256": "12d883ec0695f5b895226611219bf5f96cfbdf9d2e3c289feac10f428f2c035d"
+  }
+}

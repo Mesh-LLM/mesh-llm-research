@@ -1,0 +1,27 @@
+{
+  "source_only": true,
+  "records": [
+    {
+      "record": "model-reference/source-provenance.json",
+      "source_revision": "b66a426539eab5ed249ff832d7e984e80efd8c6d",
+      "source_full_sha256": "2027ba481853d8d0f2cd8711eaae801ce68c0b379273d028895ee6d9d00e54cc",
+      "destination": "model-reference/legacy-tokenizer-export.py",
+      "destination_sha256": "5240e2a19bdde0fbc302e4f186df082bb130d2488178d0727512b68c32c43b73",
+      "source_block_sha256": "5240e2a19bdde0fbc302e4f186df082bb130d2488178d0727512b68c32c43b73",
+      "declared_block_sha256": "5240e2a19bdde0fbc302e4f186df082bb130d2488178d0727512b68c32c43b73",
+      "source_block_equal": true,
+      "qualification": "historical actual SDK reference only; former environment unlocked; no model execution or equivalence claim"
+    },
+    {
+      "record": "historical-attestation/source-provenance.json",
+      "source_revision": "b66a426539eab5ed249ff832d7e984e80efd8c6d",
+      "source_full_sha256": "fae707ebdb69e8aeb9aed374b161305ce08155866dc774420e5ecea0d446f470",
+      "destination": "historical-attestation/task-8-real-binary.sh",
+      "destination_sha256": "4cf724bcb10db6968dd1fcd2fd621a15e1de4ce4e0ec8949e025add43ceaea2e",
+      "source_block_sha256": null,
+      "declared_block_sha256": null,
+      "source_block_equal": null,
+      "qualification": "Historical experiment only; not rerun on current products"
+    }
+  ]
+}

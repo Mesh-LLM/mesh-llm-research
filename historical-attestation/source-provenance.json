@@ -1,0 +1,8 @@
+{
+  "source_revision": "b66a426539eab5ed249ff832d7e984e80efd8c6d",
+  "source_path": "scripts/archive/manual/task-8-real-binary.sh",
+  "source_sha256": "fae707ebdb69e8aeb9aed374b161305ce08155866dc774420e5ecea0d446f470",
+  "extracted_sha256": "4cf724bcb10db6968dd1fcd2fd621a15e1de4ce4e0ec8949e025add43ceaea2e",
+  "correction": "Explicit Mesh source root replaces relocated ancestor guessing",
+  "qualification": "Historical experiment only; not rerun on current products"
+}

@@ -1,0 +1,8 @@
+[project]
+name = "mesh-speed-bench-sdk"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["datasets", "requests", "tqdm"]
+
+[tool.uv]
+package = false

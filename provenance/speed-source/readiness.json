@@ -1,0 +1,61 @@
+{
+  "upstream_repository": "https://github.com/ggml-org/llama.cpp.git",
+  "upstream_revision": "ff6779035febf91eed41cdd16757873e6a81d446",
+  "upstream_tree": "2411a50120c41619a619952e1723c19640a289af",
+  "dataset_repository": "nvidia/SPEED-Bench",
+  "dataset_revision": "454f88454792dfa3ccfd7ef15fff248efde44cd1",
+  "qualitative_sha256": "4f76bc45bdffb38712a5c26d7a7c9a9a791484b392a7b64a6ffb9abe48e02e26",
+  "qualitative_bytes": 364138,
+  "metadata_urls": [
+    "https://huggingface.co/api/datasets/nvidia/SPEED-Bench",
+    "https://huggingface.co/api/datasets/nvidia/SPEED-Bench/tree/454f88454792dfa3ccfd7ef15fff248efde44cd1/qualitative?expand=true"
+  ],
+  "resolver": "uv0.12.23 existing CPython3.12.15",
+  "resolved_packages": 40,
+  "sdk_installed": false,
+  "dataset_downloaded": false,
+  "native_wiring_pending": true,
+  "benchmark_qualified": false,
+  "files": [
+    {
+      "path": "benchmark-adapters/speed-project/pyproject.toml",
+      "sha256": "15c7f2a51ecd86c11c456a1954fa59c66acf96ffc006ae8ae348aaa9c72b76ec",
+      "bytes": 166
+    },
+    {
+      "path": "benchmark-adapters/speed-project/uv.lock",
+      "sha256": "008fad1e5ea48efde545ef3b05fa9c45700b32d0fc7db1584c9f3487f82634b2",
+      "bytes": 91105
+    },
+    {
+      "path": "benchmark-adapters/speed-project/upstream-speed-bench.py",
+      "sha256": "9eacf67452c2b9a829da61c8b077bc5ece9219482e1e2734ad4a9340bdb03911",
+      "bytes": 16479
+    },
+    {
+      "path": "benchmark-adapters/speed-project/upstream-requirements.txt",
+      "sha256": "af61baf90f1ee3421845076ff594159b3656062132ed1522470154bccaf7e635",
+      "bytes": 23
+    },
+    {
+      "path": "benchmark-adapters/speed-bench-auth.py",
+      "sha256": "fe838b99dc1824f3629d920eca6277cd7813fc5cd4ff5a0fbdf675ba34e64e71",
+      "bytes": 4932
+    },
+    {
+      "path": "benchmark-adapters/speed-prepare-dataset.py",
+      "sha256": "1c0016902dbde196305d72a46830866d54f5ef5b51d9a5805615ea80f061ce14",
+      "bytes": 796
+    },
+    {
+      "path": "provenance/speed-source/dataset-metadata.json",
+      "sha256": "b1c0a651bc098f5ff613d1b97a6af8331f3f8413c04454cfcc6a8ca213400e08",
+      "bytes": 5259
+    },
+    {
+      "path": "provenance/speed-source/qualitative-tree.json",
+      "sha256": "16fbea88e7b410d3287560756af6cea79b66516fbd34f452b7685a331f5723a8",
+      "bytes": 994
+    }
+  ]
+}

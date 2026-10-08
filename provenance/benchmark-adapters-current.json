@@ -1,0 +1,190 @@
+{
+  "source_base": "b66a426539eab5ed249ff832d7e984e80efd8c6d",
+  "prior_extraction_manifest": "benchmark-adapters-extraction.json",
+  "upstream_speed_revision": "ff6779035febf91eed41cdd16757873e6a81d446",
+  "dataset_revision": "454f88454792dfa3ccfd7ef15fff248efde44cd1",
+  "current_sources": [
+    {
+      "path": "benchmark-adapters/README.md",
+      "sha256": "3897e1580a81a279ada05fc0258d31caa38e5ee857fe3d5fb3ee8000f552c86a",
+      "bytes": 1600,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/mcp-import-probe.py",
+      "sha256": "d5d5fba746854a16485aefc6ee67a0845fa08b7c0f1fa190a35e6b8ce0b3ae18",
+      "bytes": 460,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/speed-bench-auth.py",
+      "sha256": "fe838b99dc1824f3629d920eca6277cd7813fc5cd4ff5a0fbdf675ba34e64e71",
+      "bytes": 4932,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/speed-prepare-dataset.py",
+      "sha256": "1c0016902dbde196305d72a46830866d54f5ef5b51d9a5805615ea80f061ce14",
+      "bytes": 796,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/speed-project/README.md",
+      "sha256": "a35b5d7c360419d99ddfa60611af99e8758100c75d513c171a72ffb3bf9fd7e4",
+      "bytes": 1634,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/speed-project/UPSTREAM-LICENSE",
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+      "bytes": 1078,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/speed-project/UPSTREAM-README.md",
+      "sha256": "ffccdcd0d86f18a901e32315b8c5247a7f40ce9e586756abc7f5af04ead31f57",
+      "bytes": 5291,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/speed-project/pyproject.toml",
+      "sha256": "15c7f2a51ecd86c11c456a1954fa59c66acf96ffc006ae8ae348aaa9c72b76ec",
+      "bytes": 166,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/speed-project/upstream-requirements.txt",
+      "sha256": "af61baf90f1ee3421845076ff594159b3656062132ed1522470154bccaf7e635",
+      "bytes": 23,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/speed-project/upstream-speed-bench-compare.py",
+      "sha256": "bc40afa8182d0acfa0195f5b30f1dd29609c19c31fcfdda194082380fcb3bb71",
+      "bytes": 3152,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/speed-project/upstream-speed-bench.py",
+      "sha256": "9eacf67452c2b9a829da61c8b077bc5ece9219482e1e2734ad4a9340bdb03911",
+      "bytes": 16479,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/speed-project/uv.lock",
+      "sha256": "008fad1e5ea48efde545ef3b05fa9c45700b32d0fc7db1584c9f3487f82634b2",
+      "bytes": 91105,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swe-evaluate.py",
+      "sha256": "04a7f6cb96972ae456d199121660224dc92cc8e9119cefc8ee6565c2c53dc5a5",
+      "bytes": 268,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swe-expert-instances.py",
+      "sha256": "70323222f5703430e09d7d879b4f1fcb003f0dd33fd27dc8bcd067d85976e9d3",
+      "bytes": 1400,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swe-generate-instances.py",
+      "sha256": "134464e52e287ed9d402c1cfec79afe239d56a51c852d42b870a209c6ae5ae48",
+      "bytes": 205,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swe-import-probe.py",
+      "sha256": "c66c5603c5dc7758877361bb9a0b09fd07b2723800ed1aa37acf41e57978a60f",
+      "bytes": 649,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swe-project/pyproject.toml",
+      "sha256": "6d6600df827e367958a35ee56c8813d8c247b37e9dc2db655e4ce7ad2e855b61",
+      "bytes": 536,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swe-project/uv.lock",
+      "sha256": "85aceb40793727186c4af3a36a614026af56e906f3e36948869b5aa39a92a7a8",
+      "bytes": 850882,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swerex-modal/UPSTREAM-LICENSE.txt",
+      "sha256": "715151ae2995d2e1eb3c39503d13f77d0f52cafb7bbe1a7dbf6a06911230879a",
+      "bytes": 1089,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swerex-modal/deployment/config.py",
+      "sha256": "a19643cd219c3fa15de001cb520cf087165c64b47c264688dfa4c26385b02e45",
+      "bytes": 8012,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swerex-modal/deployment/modal.py",
+      "sha256": "a827f2b4c90cc56aeffb152b40a24a941af75360735613ee7a8abb457daddc41",
+      "bytes": 12621,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swerex-modal/runtime/remote.py",
+      "sha256": "7c0dd7a42dfcc99b2dc51f961cb0fe2aee81c09caae08a256694b4e37b4da532",
+      "bytes": 12704,
+      "mode": "0644"
+    },
+    {
+      "path": "benchmark-adapters/swerex-sdk-client.py",
+      "sha256": "81bea2daff30ff7d9abcb59d560ad02569552f1e1b63202f0d3857aea1513825",
+      "bytes": 723,
+      "mode": "0644"
+    }
+  ],
+  "external_final_commit_pending": true,
+  "benchmark_qualified": false,
+  "validation": {
+    "explicit_locked_sync": "39 dependencies installed in ignored private external environment",
+    "actual_pinned_dataset": "364138bytes SHA4f76bc45bdffb38712a5c26d7a7c9a9a791484b392a7b64a6ffb9abe48e02e26",
+    "actual_sdk_contract_tests": "3passed: actual localParquet zero-selection; same-size drift refusal; unpreparedconfig refusal; no endpoint or model requests",
+    "logs": [
+      {
+        "path": "validation/speed-preparation-v228/sync.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "validation/speed-preparation-v228/sync.stderr",
+        "sha256": "9c92b60be2a1b165525b77c3644658eecc5a78818d82c0e84a7bb55031c04792",
+        "bytes": 1130
+      },
+      {
+        "path": "validation/speed-preparation-v228/dataset.stdout",
+        "sha256": "837d6047d827ad45d171b9b6558e3df4786b3e8154012ae7643f270625b3680a",
+        "bytes": 202
+      },
+      {
+        "path": "validation/speed-preparation-v228/dataset.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "validation/speed-preparation-v228/tests.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "validation/speed-preparation-v228/tests.stderr",
+        "sha256": "8535cc8fea585eb5dd838ba69e96e253e55654aa19585059ac68f3bb8dab6c7c",
+        "bytes": 631
+      }
+    ]
+  },
+  "license_scope": {
+    "own_wrappers": "repository Apache-2.0 LICENSE, extracted from b66 source",
+    "speed_upstream": "speed-project/UPSTREAM-LICENSE from exact ff677 upstream blob",
+    "swerex_postimages": "swerex-modal/UPSTREAM-LICENSE.txt and provenance/swerex-source/swe-rex-1.4.0.METADATA from existing admitted optional preparation, no new installation"
+  }
+}
